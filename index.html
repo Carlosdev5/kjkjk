@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Photo Feed</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .feed-container {
+            width: 90%;
+            max-width: 600px;
+        }
+        .photo {
+            position: relative;
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .photo img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px 10px 0 0;
+        }
+        .caption {
+            padding: 10px;
+            background-color: white;
+            border-radius: 0 0 10px 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .user-info {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            background-color: white;
+            border-radius: 10px 10px 0 0;
+        }
+        .user-info img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .user-info p {
+            margin: 0;
+            font-weight: bold;
+        }
+        .actions {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            background-color: white;
+            border-radius: 0 0 10px 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .actions button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .actions button:hover {
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <div class="feed-container">
+        <div class="photo">
+            <div class="user-info">
+                <img src="https://via.placeholder.com/40" alt="Usuario">
+                <p>@usuario1</p>
+            </div>
+            <img src="https://img.freepik.com/foto-gratis/hermoso-paisaje-al-aire-libre-mar-playa-tropical-al-atardecer-o-al-amanecer_74190-9969.jpg?w=2000&t=st=1722868615~exp=1722869215~hmac=2da0ffdff3153e340e42029a941bc778cea1ee8c2395a95967363a67034ff276" alt="Foto 1">
+            <div class="caption">
+                <p>Foto 1: Un día soleado en la playa.</p>
+            </div>
+            <div class="actions">
+                <button>❤️ Me gusta</button>
+                <button>💬 Comentarios</button>
+                <button>Siguiente foto ➡️</button>
+            </div>
+        </div>
+        <div class="photo">
+            <div class="user-info">
+                <img src="https://via.placeholder.com/40" alt="Usuario">
+                <p>@usuario2</p>
+            </div>
+            <img src="https://www.machupicchu-tours-peru.com/wp-content/uploads/2016/12/imagen-destacada-articulos-esp-1.webp" alt="Foto 2">
+            <div class="caption">
+                <p>Foto 2: Caminata por la montaña.</p>
+            </div>
+            <div class="actions">
+                <button>❤️ Me gusta</button>
+                <button>💬 Comentarios</button>
+                <button>Siguiente foto ➡️</button>
+            </div>
+        </div>
+        <div class="photo">
+            <div class="user-info">
+                <img src="https://via.placeholder.com/40" alt="Usuario">
+                <p>@usuario3</p>
+            </div>
+            <img src="https://doñarepa.com/wp-content/uploads/2020/05/AREPA-CALENTAO.jpg" alt="Foto 3">
+            <div class="caption">
+                <p>Foto 3: Un delicioso desayuno.</p>
+            </div>
+            <div class="actions">
+                <button>❤️ Me gusta</button>
+                <button>💬 Comentarios</button>
+                <button>Siguiente foto ➡️</button>
+            </div>
+        </div>
+        <div class="photo">
+            <div class="user-info">
+                <img src="https://via.placeholder.com/40" alt="Usuario">
+                <p>@usuario4</p>
+            </div>
+            <img src="https://www.lavanguardia.com/files/image_990_484/uploads/2017/07/10/5fa3c57727bbb.jpeg" alt="Foto 4">
+            <div class="caption">
+                <p>Foto 4: Atardecer en la ciudad.</p>
+            </div>
+            <div class="actions">
+                <button>❤️ Me gusta</button>
+                <button>💬 Comentarios</button>
+                <button>Siguiente foto ➡️</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
